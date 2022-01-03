@@ -8,7 +8,153 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <p>test italic</p>
+    <header class="header">
+
+        <div class="header__start">
+          <div class="header__object">
+            <img src="public/img/eclair.svg" alt="eclair">
+            <img src="public/img/nom_de_zeus.svg" alt="logo">
+                
+          <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+            @pointerdown="menuIsOpen = !menuIsOpen" 
+            :class="menuIsOpen && 'menu-btn--open'">
+          <span class="menu-btn__bar"></span>
+        </button>
+    </div>
+      
+    </div> 
+
+  <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+ 
+    <ul class="menu__list list-unstyled">
+      <li class="menu__item">
+        <a class="menu__link" href="article1.html">LES FILMS</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="article2.html">LE LIVRE</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="article3.html">LE RÉALISATEUR</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="galerie.html">CONTACT</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="glossaire.html">À PROPOS</a></li>
+    </ul>
+  </nav>
+    
+</header>
+    <section class="accueil">
+        <div class="accueil__afterstart">
+            <img src="public/img/accueil_img.svg" alt="image intro avec marqué nom de zeus et un eclair">
+            <p class="accueil__tagline">Le future n’est jamais écrit 
+                à l’avance pour personne.</p>
+
+        </div>
+
+        <div class="accueil__montage">
+            <img src="public/img/accueil_eclaire_triangle.svg" alt="logo de l'aclair avec un triangle">
+            <p class="accueil__montagetxt"> &lt;Montage compilation réplique&gt;
+            </p>
+
+        </div>
+        <div class="accueil__intro">
+            <h4 class="accueil__introquest">QU’EST-CE QUE LE TEMPS ?
+            </h4>
+            <p class="accueil__introtxt">Cette intérogation pèse sur l’humanité
+                depuis son commencement.
+                Elles sont aujourd’hui au coeur
+                de multiples débats scientifiques
+                et animent la passion des amateurs
+                de science-fiction.
+                </p>
+
+        </div>
+        <section class="accueil__article">
+
+            <div class="accueil__article1">
+            <h2 class="accueil__articletitle">Les films</h2>
+            <h3 class="accueil__articlename">RETOUR VERS
+                LE FUTUR
+                </h3>
+            <img src="public/img/affiche1.jpg" alt="retour vers le futur 1">
+            <img src="public/img/affiche2.jpg" alt="retour vers le futur 2">
+            <img src="public/img/affiche3.jpg" alt="retour vers le futur 3">
+
+            <p class="acceuil__articletxt">Retour vers le futur est une trilogie de science-fiction réalisé par Robert Zemeckis entre 1985
+                et 1990, sur le voyage dans le temps.
+            </p>
+
+            <button class="accueil__articlebutton">
+                <p class="accueil__articledecouvrir">DÉCOUVRIR</p>
+            </button>
+
+            </div>
+
+
+            <div class="accueil__article2">
+            <h2 class="accueil__articletitle">Le réalisateur</h2>
+            <h3 class="accueil__articlename">ROBERT
+                ZEMECKIS
+                
+                </h3>
+            <img src="public/img/accueil__article2.jpg" alt="ROBERT ZEMECKIS">
+
+
+            <p class="acceuil__articletxt">Robert Zemeckis est l’un des plus grand
+                réalisateur du 20 et 21eme siecle. Il à touché a
+                presque tout les genres de cinéma de l’horreur
+                à la science fiction.
+                
+            </p>
+
+            <button class="accueil__articlebutton">
+                <p class="accueil__articledecouvrir">DÉCOUVRIR</p>
+            </button>
+
+        </div>
+
+
+
+        <div class="accueil__article3">
+            <h2 class="accueil__articletitle">Le livre
+            </h2>
+            <h3 class="accueil__articlename">UNE BRÈVE HISTOIRE DU TEMPS
+                
+            </h3>
+            <img src="public/img/accueil_article3.jpg" alt="UNE BRÈVE HISTOIRE DU TEMPS">
+
+
+            <p class="acceuil__articletxt">Robert Zemeckis est l’un des plus grand
+                réalisateur du 20 et 21eme siecle. Il à touché a
+                presque tout les genres de cinéma de l’horreur
+                à la science fiction.
+                
+                
+            </p>
+
+            <button  class="accueil__articlebutton">
+                <p class="accueil__articledecouvrir">DÉCOUVRIR</p>
+            </button>
+        </div>
+        </section>
+
+
+    </section>
+
+    <footer class="footer">
+        <p class="footer__name"></p>
+        <hr>
+        <div>
+            <img src="public/img/lettre.svg" alt="lettre">
+        </div>
+        <a href="mailto:PierrePolJ@gmail.com">PierrePolJ@gmail.com</a>
+        <hr>
+        <p class="footer__mmi">Projet réaliser dans le cadre d’un exercie pédagogique au
+            département MMi de Montbéliard
+            </p>
+        <div class="footer__mmilogo">
+            <img src="public/img/logo_mmi.svg" alt="logo mmi">
+        </div>
+    </footer>
+
     
 </body>
 </html>
