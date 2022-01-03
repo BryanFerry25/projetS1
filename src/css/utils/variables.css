@@ -1,0 +1,20 @@
+:root {
+/* Color styles */
+--noir: rgba(0, 0, 0, 1);
+--gris: rgba(52, 52, 52, 1);
+--orange: rgba(236, 96, 42, 1);
+--blanc: rgba(255, 255, 255, 1);
+--bleu: rgba(146, 185, 209, 1);
+
+/* Text-size styles */
+/* base size: texte-article (16px) */
+--texte-article: 1rem;
+--citation: 1rem;
+--subtitle: 1.56rem;
+--small-italic: 1.06rem;
+--big-title: 2.81rem;
+
+
+/* Font-family styles */
+--font-ptserif:'PT Serif', serif;
+}

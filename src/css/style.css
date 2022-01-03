@@ -1,0 +1,22 @@
+
+/*librairie*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap');
+
+/* Vendors */
+@import url('vendors/normalize.css');
+
+/* Variables */
+@import url('utils/variables.css');
+
+/*base*/
+@import url('base/main.css');
+
+@import url('base/media.css');
+
+/*layout*/
+@import url('layout/header.css');
+@import url('layout/footer.css');
+
+
