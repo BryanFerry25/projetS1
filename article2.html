@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nom de Zeus</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="header__start">
+          <div class="header__object">
+
+            <img src="public/img/article1_intro.jpg" alt=" image de fond avec retour dans le futur">
+
+
+
+            <img src="public/img/eclair.svg" alt="eclair">
+            <img src="public/img/nom_de_zeus.svg" alt="logo">
+                
+          <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+            @pointerdown="menuIsOpen = !menuIsOpen" 
+            :class="menuIsOpen && 'menu-btn--open'">
+          <span class="menu-btn__bar"></span>
+        </button>
+    </div>
+      
+    </div> 
+
+  <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+ 
+    <ul class="menu__list list-unstyled">
+      <li class="menu__item">
+        <a class="menu__link" href="article1.html">LES FILMS</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="article2.html">LE LIVRE</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="article3.html">LE RÉALISATEUR</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="galerie.html">CONTACT</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="glossaire.html">À PROPOS</a></li>
+    </ul>
+  </nav>
+    <h1 class="header__titreart">
+        UNE BRÈVE HISTOIRE DU TEMPS
+    </h1>
+
+    <p class="header__titredesc">Un livre fascinant
+
+    </p>
+</header>
+
+<section class="article">
+    
+    <p class="article__texte">Le temps et l’espace sont les deux grands
+        principes qui régissent notre univers. Ceuxci constituent l’Espace-temps. Très peu de
+        scientifiques s’intéressent au sujet du
+        temps. C’est un sujet paradoxal. Il est
+        simple à comprendre autant qu’il est
+        impossible a décrire. Stephen Hawking est
+        l’une de ces personnes assez folles pour
+        écrire un livre sur ce sujet. </p>
+    <figure class="article__blocimg">
+    <img class="article__img" src="public/img/article2_img1.jpg" alt="Stephen Hawking
+    ">
+
+    <figcaption class="article__legende">Stephen Hawking
+        Années universitaires
+        </figcaption>
+    
+    </figure>
+
+    <p class="article__texte">Une brève histoire du temps est un livre de
+        vulgarisation scientifique de Stephen Hawking.
+        Dans sa version originale, il s’intitule « A Brief
+        Story Of Time ». Il est publié en 1988 aux ÉtatUnis aux éditions Bantam Books. l’ouvrage
+        paraît, ensuite, en France en 1989. Ce livre se
+        compose de 236 pages réparties en 11
+        chapitres. Contrairement aux apparences ce
+        livre a été écrit pour le grand public. Il explique
+        toutes sortes de phénomènes scientifiques.
+        L’œuvre parle du Big Bang, des trous noirs et
+        même de la physique quantique. Ce livre est  </p>
+
+
+
+    <h2 class="article__subtitle">Un succès cinématographique</h2>    
+    
+    <p class="article__texte">Ce livre a connus 2 adaptations
+        cinématographique majeurs. La première, Une
+        brève histoire du temps, sort en 1991. C’est un
+        documentaire biographique. La seconde Une
+        merveilleuse histoire du temps, est une
+        reconstitution biographique. Ce film sort en
+        2014 et reçoit 6 récompenses. Parmi elles, un
+        Oscar du meilleur acteur pour Eddie Redmayne
+        dans le rôle de Stephen Hawking. </p>
+
+
+        <button class="article__button">
+            FILMS ASSOCIÉS
+        </button>
+
+        <h2 class="article__subtitle">Écrivain malgré lui
+        </h2>  
+
+        <p class="article__texte">Stephen Hawking est un scientifique très
+    célèbre pour ses multiples recherches. Il est
+    également très connu pour avoir survécu une
+    sclérose latérale amyotrophique (SCLA).  </p>
+
+
+    <div class="article__bloccitation">
+        <blockquote class="article__citation">« Les personnes handicapées
+            devraient se concentrer sur les
+            choses que leur handicap ne les
+            empêche pas de faire, sans regretter
+            ce dont elles sont incapables. »</blockquote>
+        <p class=article__auteur>Stephen Hawking
+        </p>
+    </div>
+
+    <figure class="article__blocimg">
+        <img class="article__img" src="public/img/article2_img2.jpg" alt="Stephen Hawkings
+        Stage avancé de SCLA
+        ">
+    
+        <figcaption class="article__legende">Stephen Hawkings
+            Stage avancé de SCLA
+            </figcaption>
+        
+        </figure>
+
+
+
+        <h2 class="article__subtitle">La notion de temps
+        </h2> 
+
+        <p class="article__texte">Dans son livre Stephen Hawkings nous
+            explique ce qu’est de la flêche du temps. Du
+            moins, ce que nous pensons être le temps. Il y
+            est écrit que le temps n’est pas absolu. Le
+            temps n’est pas le même pour tout être vivant.
+            La théorie de la relativité nous le fait</p>
+
+
+    
+            <div class="article__bloccitation">
+                <blockquote class="article__citation">«  À sa place, chaque observateur
+                    aurait sa propre mesure du temps
+                    enregistrée par une horloge qu’il
+                    emmènerait avec lui : les horloges
+                    emmenées par différents
+                    observateurs ne seraient pas
+                    nécessairement d’accord. Donc le
+                    temps devint un concept plus
+                    personnel, relatif à l’observateur qui
+                    le mesurait.</blockquote>
+                <p class=article__auteur>Une brève histoire du temps
+                    Chapitre 9
+                </p>
+            </div>
+    </section>
+
+        <footer class="footer">
+            <p class="footer__name">PierrePolJ</p>
+            <hr>
+            <div>
+                <img src="public/img/lettre.svg" alt="lettre">
+            </div>
+            <a href="mailto:PierrePolJ@gmail.com">PierrePolJ@gmail.com</a>
+            <hr>
+            <p class="footer__mmi">Projet réaliser dans le cadre d’un exercie pédagogique au
+                département MMi de Montbéliard
+                </p>
+            <div class="footer__mmilogo">
+                <img src="public/img/logo_mmi.svg" alt="logo mmi">
+            </div>
+        </footer>
+    
+
+
+

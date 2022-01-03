@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nom de Zeus</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <div class="header__start">
+          <div class="header__object">
+
+            <img src="public/img/article1_intro.jpg" alt=" image de fond avec retour dans le futur">
+
+
+
+            <img src="public/img/eclair.svg" alt="eclair">
+            <img src="public/img/nom_de_zeus.svg" alt="logo">
+                
+          <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+            @pointerdown="menuIsOpen = !menuIsOpen" 
+            :class="menuIsOpen && 'menu-btn--open'">
+          <span class="menu-btn__bar"></span>
+        </button>
+    </div>
+      
+    </div> 
+
+  <nav class="header__menu menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+ 
+    <ul class="menu__list list-unstyled">
+      <li class="menu__item">
+        <a class="menu__link" href="article1.html">LES FILMS</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="article2.html">LE LIVRE</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="article3.html">LE RÉALISATEUR</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="galerie.html">CONTACT</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="glossaire.html">À PROPOS</a></li>
+    </ul>
+  </nav>
+    <h1 class="header__titreart">
+        RETOUR VERS LE FUTUR
+    </h1>
+
+    <p class="header__titredesc">Une saga culte
+    </p>
+</header>
+
+<section class="article">
+    <p class="article__intro">Les années 80 est 90 sont marquées par la montée du genre « geek » et de la science-fiction. Ce changement se ressent à la télévision, dans la littérature et au cinéma. Retour vers le futur est un bon exemple typique cette période. </p>
+    <p class="article__texte">Retour vers le futur est une trilogie de films
+        réalisés par Robert Zemeckis entre 1985 et
+        1990. </p>
+    <figure class="article__blocimg">
+    <img class="article__img" src="public/img/article1_img.jpg" alt="image du tournage de retour vers le futur">
+
+    <figcaption class="article__legende">Image du tournage de 
+        Retour vers le futur</figcaption>
+    
+    </figure>
+
+    <p class="article__texte">La saga, en version originale, se nomme Back
+        to the futur. Ces films sont sortis
+        respectivement le 30 octobre 1985, 20
+        décembre 1989 et 18 juillet 1990. Les deux
+        acteurs principaux sont Micheal J.Fox et
+        Christopher Loyd. Dans les rôles iconiques de
+        Marty Mc Fly et du Docteur Emett Brown. La
+        bande originale a été produite par Alan </p>
+
+
+
+    <h2 class="article__subtitle">Synopsis</h2>    
+    
+    <p class="article__texte">Marty Junior McFly est un jeune lycéen de Hill
+        Valley en Amérique. Un soir, son ami le Docteur
+        Emmett Brown lui donne rendez vous à 2
+        heure du matin sur la Promenade des Deux
+        Pins. À cet endroit, Marty va assister au test du
+        travail de toute une vie. L’essai d’une machine à
+        voyager dans le temps fabriquée à partir d’une
+        Dolorean. </p>
+
+
+    <div class="article__bloccitation">
+        <blockquote class="article__citation">«  Quitte à voyager dans le temps a
+        bord d’une voiture autant en
+        chosisir une qui ai de la gueule !»</blockquote>
+        <p class=article__auteur>Docteur Emmet Brown</p>
+    </div>
+    
+    <p class="article__texte">Toute la saga nous conte l’histoire de ces deux
+        personnages bien spéciaux. Pleine de
+        rebondissements et paradoxes temporels,
+        cette trilogie saura vous questionner sur le
+        fonctionnement même du temps et de
+        l’univers.
+        Cette trilogie restera à jamais l’une des sagas
+        phare de la science-fiction. Nous avons
+        d’ailleurs fêté, le mercredi 20 octobre de l’an
+        2015, l’arrivée de la Dolorean. Dans le
+        deuxième film, nos deux héros voyagent en
+        2015. Soit, pour les personnes de 1989, un
+        lointain futur. Accompagné d’un humour
+        simple mais efficace, chacun de ces trois films
+        saura vous faire rire peut importe votre âge.</p>
+
+
+        <button class="article__button">
+            RÉALISATEUR
+        </button>
+    </section>
+
+        <footer class="footer">
+            <p class="footer__name">PierrePolJ</p>
+            <hr>
+            <div>
+                <img src="public/img/lettre.svg" alt="lettre">
+            </div>
+            <a href="mailto:PierrePolJ@gmail.com">PierrePolJ@gmail.com</a>
+            <hr>
+            <p class="footer__mmi">Projet réaliser dans le cadre d’un exercie pédagogique au
+                département MMi de Montbéliard
+                </p>
+            <div class="footer__mmilogo">
+                <img src="public/img/logo_mmi.svg" alt="logo mmi">
+            </div>
+        </footer>
+    
+
+
+
