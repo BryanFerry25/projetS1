@@ -17,4 +17,6 @@
 
 /* Font-family styles */
 --font-ptserif:'PT Serif', serif;
+--font-roboto:'Roboto', sans-serif;
+--font-roboto-bold:'Roboto', sans-serif ;
 }

@@ -28,4 +28,10 @@ button {
 .noscroll body {
   overflow: hidden;
 }
+body{
+  background-color: var(--gris);
+}
 
+.main__orange{
+  background-color: var(--orange);
+}

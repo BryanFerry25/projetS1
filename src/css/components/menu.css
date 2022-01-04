@@ -1,0 +1,82 @@
+/* Pour construire le menu en mobile : 
+On construit le menu tel qu'il sera une fois ouvert.
+On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le menu. */
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0; right : 0;
+    background-image: url(../../../public/img/menu_fond.jpg);
+ 
+    transition: all .4s ease-in-out;
+  }
+  /* On se sert de Javascript pour ajouter une classe sur le menu lorsqu'on clique sur le bouton de menu pour le faire apparaître */
+  .menu--open {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* Mise en forme des éléments du menu */
+  .menu__list {
+    margin-top: 25vh;
+    margin-left: 15vw;
+  }
+  
+  .menu__item {
+    margin-top: 15%;
+  }
+  
+
+  
+  
+  /* Mise en forme du bouton de menu "Hamburger" */
+  .menu-btn {
+    position: relative;
+    z-index: 3;
+    width: 30px;  
+  }
+  
+  .menu-btn__bar,
+  .menu-btn__bar::before,
+  .menu-btn__bar::after {
+    content: '';
+    background: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    transition: all .4s ease-in-out;
+  }
+  
+  .menu-btn__bar::before {
+    top: -10px;
+  }
+  
+  .menu-btn__bar::after {
+    top: 10px;
+  }
+  
+  /* Technique pour transformer les 3 barres du bouton de menu en croix
+  Ne pas oublier d'ajouter une transition plus haut pour l'animation */
+  .menu-btn--open .menu-btn__bar,
+  .menu-btn--open .menu-btn__bar::before,
+  .menu-btn--open .menu-btn__bar::after {
+    transform: rotate(135deg);
+  }
+  
+  .menu-btn--open .menu-btn__bar::before,
+  .menu-btn--open .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+  }
+  
+  .header--atTop .menu-btn:not(.menu-btn--open) .menu-btn__bar,
+  .header--atTop .menu-btn:not(.menu-btn--open) .menu-btn__bar::before,
+  .header--atTop .menu-btn:not(.menu-btn--open) .menu-btn__bar::after {
+    background-color: white;
+  }
