@@ -1,0 +1,29 @@
+.autresfilms__header{
+    background-image: url(../../../public/img/article2_intro.jpg);
+    background-repeat: no-repeat;
+    padding-bottom:7.5vh ;
+    box-shadow: 13px 4px 6px 1px rgba(0, 0, 0, 0.73);
+    background-size: cover;
+}
+
+.film__image{
+    text-align: center;
+    min-width:50%;
+    min-height:50%;
+    width:auto;
+    height:auto;
+    width:40vh;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-top: 5vh;
+}
+
+.film__txt{
+    text-align: center;
+    color: white;
+    font-family: var(--font-ptserif);
+    margin: 2vh 14vh;
+    font-size: 1.1rem;
+}

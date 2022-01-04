@@ -1,0 +1,45 @@
+.contact__header{
+    background-color: var(--gris);
+    padding-bottom: 3vh;
+}
+
+.contact__txt{
+    text-align: center;
+    font-size: var(--texte-article);
+    font-family: var(--font-roboto);
+    font-weight: 300;
+    font-style: normal;
+    margin: 4vh 0
+
+}
+
+input{
+    font-family: var(--font-roboto);
+    font-weight: 300;
+    font-style: normal;
+    font-size: var(--texte-article);
+    color: white;
+    background-color: var(--gris);
+    display: block;
+    min-width:90%;
+    min-height:90%;
+    width:auto;
+    height:5vh;
+    width:30vh;
+    margin-left: 2vh ;
+    height: 6vh;
+
+}
+
+.contact__msg{
+    height: 30vh;
+}
+
+.contact__boutonform{
+    text-align: center;
+    margin: 6vh;
+}
+
+
+
+    

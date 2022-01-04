@@ -23,3 +23,13 @@
     text-align: center;
     color: white;
 }
+
+.header__mmidesc{
+    margin: 0 4vh;
+    text-align: center;
+    color: white;
+    font-size: var(--texte-article);
+    font-family: var(--font-roboto);
+    font-weight: 300;
+    font-style: normal;
+}

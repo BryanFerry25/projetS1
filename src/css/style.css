@@ -20,6 +20,9 @@
 @import url('layout/footer.css');
 @import url('layout/accueil.css');
 @import url('layout/article.css');
+@import url('layout/autresfilms.css');
+@import url('layout/contact.css');
+@import url('layout/apropos.css');
 
 
 /* Components */

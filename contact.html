@@ -9,12 +9,17 @@
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header class="header">
+    <header class="header contact__header">
 
         <div class="header__start">
           <div class="header__object">
-            <img src="public/img/eclair.svg" alt="eclair">
-            <img src="public/img/nom_de_zeus.svg" alt="logo">
+
+            <a href="index.html">
+              <img src="public/img/eclair.svg" alt="eclair">
+            </a>
+            <a href="index.html">
+              <img src="public/img/nom_de_zeus.svg" alt="logo">
+            </a>
                 
           <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
             @pointerdown="menuIsOpen = !menuIsOpen" 
@@ -49,7 +54,7 @@
   <h1 class="contact__txt">Une question ? Une remarque ? Un avis ? 
   </h1>
 
-  <div>
+  <div class="contact__form">
     <form method="get">
         
         <input type="text" id="NameText" required placeholder="Nom">
@@ -64,10 +69,15 @@
         <br>
 
         
-        <input type="text" id="NameText3" required placeholder="Votre message">
+        <input class="contact__msg" type="text" id="NameText3" required placeholder="Votre message">
         <br>
 
-    <input type="submit" value="Envoyer">
+
+    <div class="contact__boutonform">
+      <input class="contact__send" type="submit" value="Envoyer">
+    </div>
+
+    
     </form>
   </div>
 

@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
-<body>
-    <header class="header">
+<body id="color">
+    <header class="header" >
 
         <div class="header__start">
           <div class="header__object">
-            <img src="public/img/eclair.svg" alt="eclair">
-            <img src="public/img/nom_de_zeus.svg" alt="logo">
+
+            <a href="index.html">
+              <img src="public/img/eclair.svg" alt="eclair">
+            </a>
+            <a href="index.html">
+              <img src="public/img/nom_de_zeus.svg" alt="logo">
+            </a>
                 
           <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
             @pointerdown="menuIsOpen = !menuIsOpen" 
@@ -44,7 +49,7 @@
     À PROPOS   
   </h1>
 
-  <p class="header__titredesc">Ce site internet a été réalisé dans le cadre d’un
+  <p class="header__mmidesc">Ce site internet a été réalisé dans le cadre d’un
     exercice pédagogique au département MMi de </p>
 
 

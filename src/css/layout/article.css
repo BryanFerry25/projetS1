@@ -1,19 +1,22 @@
 .article1__header{
     background-image: url(../../../public/img/article1_intro.jpg);
     background-repeat: no-repeat;
-    padding-bottom:10vh ;
+    padding-bottom:8vh ;
+    background-size: cover;
 }
 
 .article2__header{
     background-image: url(../../../public/img/article2_intro.jpg);
     background-repeat: no-repeat;
-    padding-bottom:10vh ;
+    padding-bottom:2vh ;
+    background-size: cover;
 }
 
 .article3__header{
     background-image: url(../../../public/img/article3_intro.jpg);
     background-repeat: no-repeat;
     padding-bottom:10vh ;
+    background-size: cover;
     
 }
 

@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
-<body>
-    <header class="header">
+<body id="color">
+    <header class="header autresfilms__header">
 
         <div class="header__start">
           <div class="header__object">
-            <img src="public/img/eclair.svg" alt="eclair">
-            <img src="public/img/nom_de_zeus.svg" alt="logo">
+
+            <a href="index.html">
+              <img src="public/img/eclair.svg" alt="eclair">
+            </a>
+            <a href="index.html">
+              <img src="public/img/nom_de_zeus.svg" alt="logo">
+            </a>
                 
           <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
             @pointerdown="menuIsOpen = !menuIsOpen" 
@@ -40,42 +45,59 @@
         <a class="menu__link" href="apropos.html">À PROPOS</a></li>
     </ul>
   </nav>
+  <h1 class="header__titreart">
+    FILMS
+ASSOCIÉS
+</h1>
+
+<p class="header__titredesc">Une Brève Histoire
+  du Temps
+  
+</p>
     
 </header>
 
 <section class="films">
 
-  <div class="film__image">
-    <img src="public/img/autre_film1.jpg" alt=" histoire du temps film">
+   <div class="film__image">
+     <img src="public/img/autre_film1.jpg" alt=" histoire du temps film">
 
-  </div>
+   </div>
 
-  <p>Une merveilleuse
+   <p class="film__txt">Une merveilleuse
     histoire du temps
     2015
-    </p>
-  <a href="https://youtu.be/Rc20OXhGnfU">
-  <button class="article__button">
-          BANDE-ANNONCE
-  </button>
-  </a>
-  <hr>
+     </p>
 
-  <div class="film__image">
-    <img src="public/img/autre_film2.jpg" alt=" film A brief story of time
-    1991
-    ">
 
-  </div>
+   <a href="https://youtu.be/Rc20OXhGnfU">
+    <div class="bouton">
+        <button class="accueil__articlebutton">
+            <p class="accueil__articledecouvrir">BANDE-ANNONCE</p>
+        </button>
+    </div>
+    </a>
 
-  <p>A brief story of time
+
+   <hr>
+
+   <div class="film__image">
+     <img src="public/img/autre_film2.jpg" alt=" film A brief story of time
+    1991">
+
+   </div>
+
+   <p class="film__txt">A brief story of time
     1991
     
-    </p>
-  <button class="article__button">
-    EN SAVOIR PLUS
-
-  </button>
+     </p>
+     <a href="https://www.imdb.com/title/tt0103882/">
+      <div class="bouton">
+          <button class="accueil__articlebutton">
+              <p class="accueil__articledecouvrir">EN SAVOIR PLUS</p>
+          </button>
+      </div>
+      </a>
 
 
 
