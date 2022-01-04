@@ -1,6 +1,10 @@
 /* Pour construire le menu en mobile : 
 On construit le menu tel qu'il sera une fois ouvert.
 On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le menu. */
+
+
+
+
 .menu {
     visibility: hidden;
     opacity: 0;
@@ -16,23 +20,73 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
     transition: all .4s ease-in-out;
   }
   /* On se sert de Javascript pour ajouter une classe sur le menu lorsqu'on clique sur le bouton de menu pour le faire apparaître */
-  .menu--open {
+.menu--open {
     visibility: visible;
     opacity: 1;
   }
   
   /* Mise en forme des éléments du menu */
-  .menu__list {
+.menu__list {
+    font-size: 1.5rem;
     text-align: center;
-    margin-top: 25vh;
-    margin-left: 50vw;
+    min-width:100%;
+    min-height:100%;
+    width:auto;
+    height:auto;
+    width:80vh;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    
+    
   }
-  
-  .menu__item {
-    margin-top: 15%;
-  }
+
+
+li{
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: bold;
+  font-style: normal;
+  list-style-position:inside;
+  border: 2px solid white;
+  padding-left: 1vh;
+  padding-right:1vh;
+  margin:0 8vh;
   
 
+}
+
+li:nth-child(5) {
+  font-size: 20px;
+  border-width: 1px;
+  font-family: var(--font-roboto);
+  font-weight: 300;
+  font-style: normal;
+  padding: 2vh;
+  margin:10vh 12vh 2vh 12vh;
+  
+}
+
+li:nth-child(6) {
+  font-size: 20px;
+  border-width: 1px;
+  font-family: var(--font-roboto);
+  font-weight: 300;
+  font-style: normal;
+  padding: 2vh;
+  margin:2vh 12vh;
+}
+
+  .menu__item {
+    margin-top: 15%;
+
+  }
+  
+.menu__article{
+  margin-bottom: 20vh;
+  padding-bottom: 10vh;
+}
   
   
   /* Mise en forme du bouton de menu "Hamburger" */
@@ -82,3 +136,8 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   .header--atTop .menu-btn:not(.menu-btn--open) .menu-btn__bar::after {
     background-color: white;
   }
+
+.menu__logotest{
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
