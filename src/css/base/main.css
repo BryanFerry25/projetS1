@@ -6,7 +6,6 @@
 }
 
 
-
 button {
   -webkit-appearance: none;
   appearance: none;
@@ -28,7 +27,13 @@ button {
 .noscroll body {
   overflow: hidden;
 }
+
 body{
+  background-color: white;
+}
+
+
+#color{
   background-color: var(--gris);
 }
 

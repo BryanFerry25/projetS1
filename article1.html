@@ -17,9 +17,12 @@
             
 
 
-
+            <a href="index.html">
             <img src="public/img/eclair.svg" alt="eclair">
+            </a>
+            <a href="index.html">
             <img src="public/img/nom_de_zeus.svg" alt="logo">
+            </a>
                 
           <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
             @pointerdown="menuIsOpen = !menuIsOpen" 
@@ -59,6 +62,7 @@
         réalisés par Robert Zemeckis entre 1985 et
         1990. </p>
     <figure class="article__blocimg">
+      
     <img class="article__img" src="public/img/article1_img.jpg" alt="image du tournage de retour vers le futur">
 
     <figcaption class="article__legende">Image du tournage de 
@@ -93,7 +97,7 @@
         <blockquote class="article__citation">«  Quitte à voyager dans le temps a
         bord d’une voiture autant en
         chosisir une qui ai de la gueule !»</blockquote>
-        <p class=article__auteur>Docteur Emmet Brown</p>
+        <p class="article__auteur">Docteur Emmet Brown</p>
     </div>
     
     <p class="article__texte">Toute la saga nous conte l’histoire de ces deux
@@ -113,26 +117,34 @@
         saura vous faire rire peut importe votre âge.</p>
 
 
-        <button class="article__button">
-            RÉALISATEUR
-        </button>
+        <a href="article3.html">
+          <div class="bouton">
+              <button class="article__button">
+                  <p class="article__buttontxt">RÉALISATEUR</p>
+              </button>
+          </div>
+          </a>
+
+
     </section>
 
-        <footer class="footer">
-            <p class="footer__name">PierrePolJ</p>
-            <hr>
-            <div>
-                <img src="public/img/lettre.svg" alt="lettre">
-            </div>
-            <a href="mailto:PierrePolJ@gmail.com">PierrePolJ@gmail.com</a>
-            <hr>
-            <p class="footer__mmi">Projet réaliser dans le cadre d’un exercie pédagogique au
-                département MMi de Montbéliard
-                </p>
-            <div class="footer__mmilogo">
-                <img src="public/img/logo_mmi.svg" alt="logo mmi">
-            </div>
-        </footer>
+    <footer class="footer">
+        <p class="footer__name">PierrePolJ</p>
+        <hr class="footer__separaison">
+
+        <div class="footer__lettre">
+            <img src="public/img/lettre.svg" alt="lettre">
+        </div>
+
+        <a class="footer__mail" href="mailto:PierrePolJ@gmail.com">PierrePolJ@gmail.com</a>
+        <hr class="footer__separaison">
+        <p class="footer__mmi">Projet réaliser dans le cadre d’un exercie pédagogique au
+            département MMi de Montbéliard
+            </p>
+        <div class="footer__mmilogo">
+            <img src="public/img/logo_mmi.svg" alt="logo mmi">
+        </div>
+    </footer>
     
 
 

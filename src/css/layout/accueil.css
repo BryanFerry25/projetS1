@@ -20,6 +20,7 @@
     line-height: 119.5%;
     text-align: center;
     padding-bottom: 9vh;
+    color: white;
     
     
     
@@ -71,6 +72,7 @@
     font-weight: bold;
     font-style: normal;
     font-size: 1.3rem;
+    color: white;
 }
 
 
@@ -98,6 +100,7 @@
     font-family: var(--font-ptserif);
     font-size: 1.2rem;
     font-weight: 300;
+    color: white;
 
 }
 
@@ -131,6 +134,7 @@
     font-weight: 300;
     font-size: var(--texte-article);
     margin: 4vh 3vh;
+    color: white;
 }
 
 .accueil__blocimg{
@@ -154,11 +158,13 @@
     font-family: var(--font-roboto);
     font-weight: bold;
     font-style: normal;
+    color: white;
 }
 
 .bouton{
     text-align: center;
     padding-bottom: 3vh;
+    
 }
 
 .accueil__otherimg{
