@@ -42,7 +42,13 @@ a{
 }
 
 hr{
-  border-width:0.5px;
+
   border-style:solid;
   border-color:white;
+}
+
+.separaison{
+  
+
+  margin: 0 5vh;
 }
