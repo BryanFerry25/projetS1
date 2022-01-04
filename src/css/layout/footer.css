@@ -1,0 +1,43 @@
+footer{
+    text-align: center;
+    background-color:black;
+    
+}
+
+.footer__name{
+    margin: 4vh 0 ;
+    font-family: var(--font-roboto);
+    font-size: 1.25rem;
+    padding-top:3vh ;
+
+}
+
+
+.footer__lettre{
+    margin:4vh 0 3vh 0;
+}
+
+.footer__mail{
+    font-family: var(--font-roboto);
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-style: normal;
+    
+
+}
+
+.footer__separaison{
+    margin-top:4vh
+}
+
+.footer__mmi {
+    font-family: var(--font-roboto);
+    font-weight: 300;
+    font-style: normal;
+    margin: 2vh 4vh;
+    font-size: 0.7rem;
+}
+
+.footer__mmilogo{
+    padding:2vh 0;
+}
