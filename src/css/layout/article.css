@@ -139,11 +139,24 @@ blockquote{
 	margin: 0px;
 	
 	z-index: -1;
-	line-height: 5em;
+	line-height: 2em;
 	color: white;
 	background-color: var(--gris);
 	
 }	
+
+.modif-legende{
+    position: relative;
+	text-align: center;
+	
+	margin: 0px;
+	
+	z-index: -1;
+	line-height: 4em;
+	color: white;
+	background-color: var(--gris);
+
+}
 
 
 
