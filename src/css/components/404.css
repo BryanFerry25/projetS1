@@ -1,0 +1,94 @@
+.page404{
+    background-color: var(--gris);
+    text-align: center;
+}
+
+.page404__notfound{
+    margin: 5vh;
+    color: white;
+    background-color: var(--orange);
+    font-size: 5rem;
+    font-family: var(--font-roboto);
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 20px;
+    text-shadow: black 1px 0 10px;
+
+}
+
+
+.page404__pagenotfound{
+    margin: 5vh;
+    font-family: var(--font-roboto);
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+
+}
+  
+.page404__title{
+    
+    text-align: center;
+}
+
+.page404__section{
+    display: inline;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+
+.page404__research{
+    padding: 7vh;
+    background-color: var(--orange);
+    
+}
+
+.page404__requete{
+    
+    color: white;
+    font-family: var(--font-roboto);
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-shadow: black 1px 0 10px;
+    
+
+}
+
+.page404__entrer{
+    margin-top: 4vh;
+    margin-bottom:4vh;
+    background-color: white;
+    color: black;
+}
+
+.page404__button{
+    font-family: var(--font-roboto);
+    font-size: 1.3rem;
+    color: white;
+    background-color: var(--gris);
+    padding:2vh 3vh;
+    border-color:black ;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.page404__site{
+    margin: 5vh;
+    padding: 2vh;
+    font-family: var(--font-roboto);
+    font-size: 1.1rem;
+    
+    background-color: var(--orange);
+   
+    border-color:black ;
+    border-width: 2px;
+    border-style: solid;
+    text-shadow: black 1px 0 10px;
+}
+
+.homepage{
+    background-color: black;
+    border-color:var(--orange) ;
+}
