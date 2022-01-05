@@ -72,6 +72,7 @@
     padding: 30vh 0;
     background-image: url(../../../public/img/space.png);
     background-repeat: no-repeat;
+    background-size: contain;
     
     
 }
