@@ -54,17 +54,25 @@
     
 </header>
     <section class="accueil">
+
+
         <div x-data="{eclair: true}" class="accueil__afterstart">
+
+
             <div x-on:click="eclair ? eclair=false : eclair=true;" class="accueil__logoimg">
                 <img x-show="eclair" src="public/img/accueil_img.svg" alt="image intro avec marqué nom de zeus et un eclair">
             </div>
-            <div class="accueil__logoimg2">
-                <img src="public/img/accueil_img2.svg" alt="image intro avec marqué nom de zeus et un eclair mais de couleur grise">
+
+            <div x-on:click="eclair ? eclair=false : eclair=true;" class="accueil__logoimg2">
+                <img x-show="!eclair" src="public/img/accueil_img2.svg" alt="image intro avec marqué nom de zeus et un eclair mais de couleur grise">
             </div>
+
             <p  class="accueil__tagline">Le future n’est jamais écrit 
                 à l’avance pour personne.</p>
 
         </div>
+
+
     </div>
         <div class="accueil__triangle">
             <img src="public/img/accueil_triangle.svg" alt="triangle orange">
