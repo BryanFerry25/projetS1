@@ -7,6 +7,9 @@
     <title>Nom de Zeus</title>
     <link rel="stylesheet" href="src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+
+    <script src="src/js/fonction.js"></script>
 </head>
 <body>
     <header class="header article1__header">
@@ -62,9 +65,13 @@
     <p class="article__texte">Retour vers le futur est une trilogie de films
         réalisés par Robert Zemeckis entre 1985 et
         1990. </p>
-    <figure class="article__blocimg">
+    <figure class="article__blocimg"   
+    x-on:mouseleave="descendreLegende()"
+    x-on:mouseover="monterLegende()"
+    >
       
-    <img class="article__img" src="public/img/article1_img.jpg" alt="image du tournage de retour vers le futur">
+    <img class="article__img" src="public/img/article1_img.jpg" alt="image du tournage de retour vers le futur"
+>
 
     <figcaption class="article__legende">Image du tournage de 
         Retour vers le futur</figcaption>

@@ -7,6 +7,7 @@
     <title>Nom de Zeus</title>
     <link rel="stylesheet" href="src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+   
     <script src="https://animejs.com/lib/anime.min.js"></script>
     <script src="src/js/fonction.js"></script>
 
@@ -53,11 +54,14 @@
     
 </header>
     <section class="accueil">
-        <div class="accueil__afterstart">
-            <div class="accueil__logoimg">
-                <img src="public/img/accueil_img.svg" alt="image intro avec marqué nom de zeus et un eclair">
+        <div x-data="{eclair: true}" class="accueil__afterstart">
+            <div x-on:click="eclair ? eclair=false : eclair=true;" class="accueil__logoimg">
+                <img x-show="eclair" src="public/img/accueil_img.svg" alt="image intro avec marqué nom de zeus et un eclair">
             </div>
-            <p class="accueil__tagline">Le future n’est jamais écrit 
+            <div class="accueil__logoimg2">
+                <img src="public/img/accueil_img2.svg" alt="image intro avec marqué nom de zeus et un eclair mais de couleur grise">
+            </div>
+            <p  class="accueil__tagline">Le future n’est jamais écrit 
                 à l’avance pour personne.</p>
 
         </div>

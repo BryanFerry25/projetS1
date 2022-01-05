@@ -14,8 +14,8 @@ function carrousel3Images() {
 
     anim153.add({
         targets: accueil__imgfilm,
-        translateX: [{value: '500', duration: d},
-                     {value: '-500', duration: 0, delay: function(img,ind) {
+        translateX: [{value: '375', duration: d},
+                     {value: '-375', duration: 0, delay: function(img,ind) {
                          if (ind == 0) return (2*delta)+d;
                          if (ind == 1) return delta;
                          return 0;
@@ -31,4 +31,29 @@ function carrousel3Images() {
             return (3*delta)+(2*d);
         }
     });
+}
+
+function monterLegende() {
+    document.querySelector('.article__legende').style.display = 'block';
+    return anime({
+        targets: '.article__legende',
+        translateY: '4em',
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+    }).play;
+}
+
+function descendreLegende() {
+    document.querySelector('.article__legende').style.display = 'block';
+    return anime({
+        targets: '.article__legende',
+        translateY: '-4em',
+        
+        autoplay: false,
+        easing: 'linear',
+        duration: 200
+        
+    }).play;
+	
 }

@@ -55,7 +55,7 @@
 figure{
     color: white;
     background-color: var(--gris);
-    padding: 3vh 3vh 1vh 3vh;
+    padding: 3vh 3vh 0 3vh;
    
 }
 
@@ -63,7 +63,14 @@ figcaption{
     font-family: var(--font-ptserif);
     text-align: center;
     margin: 2vh 4vh;
+    
 }
+
+
+.article__blocimg{
+    margin-bottom: 9vh;
+}
+
 
 .article__buttontxt{
 
@@ -123,3 +130,20 @@ blockquote{
     margin-left: auto;
     margin-right: auto 
 }
+
+.article__legende {
+    
+	position: relative;
+	text-align: center;
+	
+	margin: 0px;
+	
+	z-index: -1;
+	line-height: 5em;
+	color: white;
+	background-color: var(--gris);
+	
+}	
+
+
+

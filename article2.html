@@ -7,6 +7,8 @@
     <title>Nom de Zeus</title>
     <link rel="stylesheet" href="src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonction.js"></script>
 </head>
 <body>
     <header class="header article2__header">
@@ -69,7 +71,10 @@
         impossible a décrire. Stephen Hawking est
         l’une de ces personnes assez folles pour
         écrire un livre sur ce sujet. </p>
-    <figure class="article__blocimg">
+    <figure class="article__blocimg" 
+    x-on:mouseleave="descendreLegende()"
+    x-on:mouseover="monterLegende()">
+
     <img class="article__img" src="public/img/article2_img1.jpg" alt="Stephen Hawking
     ">
 
@@ -133,7 +138,10 @@
         </p>
     </div>
 
-    <figure class="article__blocimg">
+    <figure class="article__blocimg"
+    x-on:mouseleave="descendreLegende()"
+    x-on:mouseover="monterLegende()">
+    
         <img class="article__img" src="public/img/article2_img2.jpg" alt="Stephen Hawkings
         Stage avancé de SCLA
         ">
