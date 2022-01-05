@@ -15,6 +15,8 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
     top: 0; bottom: 0;
     left: 0; right : 0;
     background-image: url(../../../public/img/menu_fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
  
     transition: all .4s ease-in-out;
